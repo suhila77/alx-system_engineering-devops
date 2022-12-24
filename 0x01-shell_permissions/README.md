@@ -1,1 +1,1 @@
-HELLO FROM Shell, permissions
+Hello from 0x01-shell_permissions
