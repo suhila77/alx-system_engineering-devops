@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -taype d -path './*' -print | wc -1
