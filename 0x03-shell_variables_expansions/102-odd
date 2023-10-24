@@ -1,2 +1,2 @@
 #!/bin/bash
-poste -d" "- - | cut -d " " -f 1
+poste -d" " - - | cut -d " " -f 1
