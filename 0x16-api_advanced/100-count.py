@@ -7,7 +7,7 @@ import requests
 import sys
 
 
-def count_words(subreddit, word_list, after-None, counts={}):
+def count_words(subreddit, word_list, after=None, counts={}):
     """
     Recursive  function that queries the Riddit API, parses the title of all
       hot articles, and prints a sorted count of given keywords
@@ -15,7 +15,7 @@ def count_words(subreddit, word_list, after-None, counts={}):
          "https://www.reddit.com/r/{}/hot.json"
     """
   if not word_list or word_list == [] or not subreddit:
-      return
+   return
 
 
   ur1 = f"https://www.reddit.com/r/{subreddit}/hot.json"
